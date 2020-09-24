@@ -1,0 +1,37 @@
+0
+2
+0
+2
+2
+4
+$#tSomething were wrong in TrackerClient->getTasks->resp.getStringorg.json.JSONException: JSONObject["uid"] not found.
+$#tSomething were wrong in TrackerClient->getTasks->resp.getStringorg.json.JSONException: JSONObject["uid"] not found.
+$#xSomething were wrong in TrackerClient->getTasks->resp.getStringorg.json.JSONException: JSONObject["uid"] is not an int.
+$#lSomething were wrong in TrackerClient->createTask: org.json.JSONException: JSONObject["summary"] not found.
+$#H1. *QUEUE-1*: [Name](https://tracker.yandex.ru/QUEUE-1) /task\_QUEUE\_1
+$#
+$#?Нажми /end для завершения просмотра
+$#
+$#H1. *QUEUE-1*: [Name](https://tracker.yandex.ru/QUEUE-1) /task\_QUEUE\_1
+$#M2. *QUEUE-2*: [Also Name](https://tracker.yandex.ru/QUEUE-2) /task\_QUEUE\_2
+$#
+$#RНажми /next для перехода на следующую страницу
+$#?Нажми /end для завершения просмотра
+$#
+$#K3. *QUEUE-3*: [N a m e](https://tracker.yandex.ru/QUEUE-3) /task\_QUEUE\_3
+$#
+$#?Нажми /end для завершения просмотра
+$#
+$%[]
+$%'[{"key":"QUEUE-1","something":"else"}]
+$%nSomething were wrong in TrackerClient->createTask: org.json.JSONException: JSONObject["createdBy"] not found.
+$%f[{"summary":"Name","createdBy":{"self":"person-1-LINK"},"description":"Description","key":"QUEUE-1"}]
+$%�[{"summary":"Name","createdBy":{"self":"person-1-LINK"},"description":"Description","assignee":{"self":"person-2-LINK"},"key":"QUEUE-1"}]
+$%�[{"summary":"Name","followers":[{"self":"person-3-LINK"},{"self":"person-4-LINK"}],"createdBy":{"self":"person-1-LINK"},"description":"Description","key":"QUEUE-1"}]
+$%{"self":"person-3-LINK"}
+$%*{"display":"John Doe","login":"john-doe"}
+$%{"self":"person-4-LINK"}
+$%.{"display":"Bill Gates","login":"bill-gates"}
+$'xSomething were wrong in TrackerClient->createTask->resp.getString: org.json.JSONException: JSONObject["key"] not found.
+$'ySomething were wrong in TrackerClient->createTasks->resp.getString: org.json.JSONException: JSONObject["uid"] not found.
+$'}Something were wrong in TrackerClient->createTasks->resp.getString: org.json.JSONException: JSONObject["uid"] is not an int.

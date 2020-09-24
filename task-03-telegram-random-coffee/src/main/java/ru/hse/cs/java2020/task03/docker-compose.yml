@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:8.0.17
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: "guest"
+      MYSQL_DATABASE: tracker
+    ports:
+      - '3301:3306'
+    volumes:
+      - './db/:/docker-entrypoint-initdb.d/'

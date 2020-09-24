@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.hse.cs.java2020.task03.TrackerClientTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-06-05T01:54:02" hostname="MacBook-Pro-Sofia.local" time="1.0">
+  <properties/>
+  <testcase name="testGetTasks" classname="ru.hse.cs.java2020.task03.TrackerClientTest" time="0.932"/>
+  <testcase name="testGetTask" classname="ru.hse.cs.java2020.task03.TrackerClientTest" time="0.041"/>
+  <testcase name="testGetComments" classname="ru.hse.cs.java2020.task03.TrackerClientTest" time="0.013"/>
+  <testcase name="testCreate" classname="ru.hse.cs.java2020.task03.TrackerClientTest" time="0.011"/>
+  <system-out><![CDATA[Something were wrong in TrackerClient->getTasks->resp.getStringorg.json.JSONException: JSONObject["uid"] not found.
+Something were wrong in TrackerClient->getTasks->resp.getStringorg.json.JSONException: JSONObject["uid"] not found.
+Something were wrong in TrackerClient->getTasks->resp.getStringorg.json.JSONException: JSONObject["uid"] is not an int.
+Something were wrong in TrackerClient->createTask: org.json.JSONException: JSONObject["summary"] not found.
+1. *QUEUE-1*: [Name](https://tracker.yandex.ru/QUEUE-1) /task\_QUEUE\_1
+
+Нажми /end для завершения просмотра
+
+1. *QUEUE-1*: [Name](https://tracker.yandex.ru/QUEUE-1) /task\_QUEUE\_1
+2. *QUEUE-2*: [Also Name](https://tracker.yandex.ru/QUEUE-2) /task\_QUEUE\_2
+
+Нажми /next для перехода на следующую страницу
+Нажми /end для завершения просмотра
+
+3. *QUEUE-3*: [N a m e](https://tracker.yandex.ru/QUEUE-3) /task\_QUEUE\_3
+
+Нажми /end для завершения просмотра
+
+[]
+[{"key":"QUEUE-1","something":"else"}]
+Something were wrong in TrackerClient->createTask: org.json.JSONException: JSONObject["createdBy"] not found.
+[{"summary":"Name","createdBy":{"self":"person-1-LINK"},"description":"Description","key":"QUEUE-1"}]
+[{"summary":"Name","createdBy":{"self":"person-1-LINK"},"description":"Description","assignee":{"self":"person-2-LINK"},"key":"QUEUE-1"}]
+[{"summary":"Name","followers":[{"self":"person-3-LINK"},{"self":"person-4-LINK"}],"createdBy":{"self":"person-1-LINK"},"description":"Description","key":"QUEUE-1"}]
+{"self":"person-3-LINK"}
+{"display":"John Doe","login":"john-doe"}
+{"self":"person-4-LINK"}
+{"display":"Bill Gates","login":"bill-gates"}
+Something were wrong in TrackerClient->createTask->resp.getString: org.json.JSONException: JSONObject["key"] not found.
+Something were wrong in TrackerClient->createTasks->resp.getString: org.json.JSONException: JSONObject["uid"] not found.
+Something were wrong in TrackerClient->createTasks->resp.getString: org.json.JSONException: JSONObject["uid"] is not an int.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

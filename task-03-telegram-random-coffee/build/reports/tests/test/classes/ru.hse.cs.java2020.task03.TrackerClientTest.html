@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ru.hse.cs.java2020.task03.TrackerClientTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ru.hse.cs.java2020.task03.TrackerClientTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ru.hse.cs.java2020.task03.html">ru.hse.cs.java2020.task03</a> &gt; TrackerClientTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.997s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreate</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetComments</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetTask</td>
+<td class="success">0.041s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetTasks</td>
+<td class="success">0.932s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Something were wrong in TrackerClient-&gt;getTasks-&gt;resp.getStringorg.json.JSONException: JSONObject[&quot;uid&quot;] not found.
+Something were wrong in TrackerClient-&gt;getTasks-&gt;resp.getStringorg.json.JSONException: JSONObject[&quot;uid&quot;] not found.
+Something were wrong in TrackerClient-&gt;getTasks-&gt;resp.getStringorg.json.JSONException: JSONObject[&quot;uid&quot;] is not an int.
+Something were wrong in TrackerClient-&gt;createTask: org.json.JSONException: JSONObject[&quot;summary&quot;] not found.
+1. *QUEUE-1*: [Name](https://tracker.yandex.ru/QUEUE-1) /task\_QUEUE\_1
+
+Нажми /end для завершения просмотра
+
+1. *QUEUE-1*: [Name](https://tracker.yandex.ru/QUEUE-1) /task\_QUEUE\_1
+2. *QUEUE-2*: [Also Name](https://tracker.yandex.ru/QUEUE-2) /task\_QUEUE\_2
+
+Нажми /next для перехода на следующую страницу
+Нажми /end для завершения просмотра
+
+3. *QUEUE-3*: [N a m e](https://tracker.yandex.ru/QUEUE-3) /task\_QUEUE\_3
+
+Нажми /end для завершения просмотра
+
+[]
+[{&quot;key&quot;:&quot;QUEUE-1&quot;,&quot;something&quot;:&quot;else&quot;}]
+Something were wrong in TrackerClient-&gt;createTask: org.json.JSONException: JSONObject[&quot;createdBy&quot;] not found.
+[{&quot;summary&quot;:&quot;Name&quot;,&quot;createdBy&quot;:{&quot;self&quot;:&quot;person-1-LINK&quot;},&quot;description&quot;:&quot;Description&quot;,&quot;key&quot;:&quot;QUEUE-1&quot;}]
+[{&quot;summary&quot;:&quot;Name&quot;,&quot;createdBy&quot;:{&quot;self&quot;:&quot;person-1-LINK&quot;},&quot;description&quot;:&quot;Description&quot;,&quot;assignee&quot;:{&quot;self&quot;:&quot;person-2-LINK&quot;},&quot;key&quot;:&quot;QUEUE-1&quot;}]
+[{&quot;summary&quot;:&quot;Name&quot;,&quot;followers&quot;:[{&quot;self&quot;:&quot;person-3-LINK&quot;},{&quot;self&quot;:&quot;person-4-LINK&quot;}],&quot;createdBy&quot;:{&quot;self&quot;:&quot;person-1-LINK&quot;},&quot;description&quot;:&quot;Description&quot;,&quot;key&quot;:&quot;QUEUE-1&quot;}]
+{&quot;self&quot;:&quot;person-3-LINK&quot;}
+{&quot;display&quot;:&quot;John Doe&quot;,&quot;login&quot;:&quot;john-doe&quot;}
+{&quot;self&quot;:&quot;person-4-LINK&quot;}
+{&quot;display&quot;:&quot;Bill Gates&quot;,&quot;login&quot;:&quot;bill-gates&quot;}
+Something were wrong in TrackerClient-&gt;createTask-&gt;resp.getString: org.json.JSONException: JSONObject[&quot;key&quot;] not found.
+Something were wrong in TrackerClient-&gt;createTasks-&gt;resp.getString: org.json.JSONException: JSONObject[&quot;uid&quot;] not found.
+Something were wrong in TrackerClient-&gt;createTasks-&gt;resp.getString: org.json.JSONException: JSONObject[&quot;uid&quot;] is not an int.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 5 июн. 2020 г., 4:54:04</p>
+</div>
+</div>
+</body>
+</html>

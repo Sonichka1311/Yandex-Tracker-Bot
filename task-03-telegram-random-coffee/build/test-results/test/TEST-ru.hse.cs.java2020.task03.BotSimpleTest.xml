@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.hse.cs.java2020.task03.BotSimpleTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-06-05T01:53:52" hostname="MacBook-Pro-Sofia.local" time="2.647">
+  <properties/>
+  <testcase name="testNotAuthorize" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="2.498"/>
+  <testcase name="testGetTasks" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.021"/>
+  <testcase name="testEmpty" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.004"/>
+  <testcase name="testStart" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.003"/>
+  <testcase name="testAuth" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.006"/>
+  <testcase name="testHelp" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.006"/>
+  <testcase name="testSetDescription" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.005"/>
+  <testcase name="testSetCommentWrongPage" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.011"/>
+  <testcase name="testGetTask" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.003"/>
+  <testcase name="testWrongState" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.006"/>
+  <testcase name="testSetCommentsTaskName" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.005"/>
+  <testcase name="testSetSummary" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.005"/>
+  <testcase name="testCreateTask" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.005"/>
+  <testcase name="testNoNextComment" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.004"/>
+  <testcase name="testGetComments" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.004"/>
+  <testcase name="testGetNoNextTasks" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.005"/>
+  <testcase name="testGetCommentsByName" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.004"/>
+  <testcase name="testEndNextComment" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.006"/>
+  <testcase name="testGetTaskWrong" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.008"/>
+  <testcase name="testGetCommentsWrong" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.003"/>
+  <testcase name="testSetWrongPage" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.013"/>
+  <testcase name="testSetWrongAssignee" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.006"/>
+  <testcase name="testSetQueue" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.004"/>
+  <testcase name="testSetToken" classname="ru.hse.cs.java2020.task03.BotSimpleTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

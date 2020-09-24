@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.hse.cs.java2020.task03.BotMediumTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-06-05T01:53:56" hostname="MacBook-Pro-Sofia.local" time="5.483">
+  <properties/>
+  <testcase name="testSetAssignee" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="5.366"/>
+  <testcase name="testCreateTaskNull" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.008"/>
+  <testcase name="testSetPage" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.031"/>
+  <testcase name="testNextTasks" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.009"/>
+  <testcase name="testSetTaskName" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.018"/>
+  <testcase name="testGetTaskByName" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.015"/>
+  <testcase name="testSetPageComment" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.02"/>
+  <testcase name="testNextComment" classname="ru.hse.cs.java2020.task03.BotMediumTest" time="0.009"/>
+  <system-out><![CDATA[0
+2
+0
+2
+2
+4
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

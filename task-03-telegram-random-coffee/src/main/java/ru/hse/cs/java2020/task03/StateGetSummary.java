@@ -1,0 +1,14 @@
+package ru.hse.cs.java2020.task03;
+
+public class StateGetSummary extends StateImpl {
+    StateGetSummary(Long userId, Bot bot) {
+        super(userId, bot);
+    }
+
+    @Override
+    public void action(String message) {
+        getDatabase().setSummary(getUserId(), message);
+        getDatabase().updateUserState(getUserId(), "waitDescription");
+        getBot().sendMessage(getUser(), Constants.DESCRIPTION);
+    }
+}
